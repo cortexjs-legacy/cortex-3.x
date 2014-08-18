@@ -1,0 +1,71 @@
+{
+  "name": "cortex",
+  "version": "3.29.0",
+  "description": "Cortex is an npm-like package manager for the web.",
+  "directories": {
+    "test": "test",
+    "lib": "lib",
+    "doc": "doc"
+  },
+  "keywords": [
+    "cortex",
+    "commonjs",
+    "dev",
+    "development",
+    "package",
+    "manager",
+    "web",
+    "server",
+    "scaffold",
+    "front-end",
+    "browser"
+  ],
+  "author": "kael",
+  "dependencies": {
+    "argv-parser": "^0.1.4",
+    "asks": "^1.0.0",
+    "async": "^0.2.9",
+    "comfort": "^3.1.0",
+    "cortex-init-prompts": "^0.3.0",
+    "cortex-profile": "^1.0.0",
+    "cortex-scaffold-generator": "^1.0.1",
+    "editor": "^0.0.4",
+    "express": "^3.4.8",
+    "fs-expand": "^0.1.0",
+    "fs-extra": "^0.8.1",
+    "fstream": "^0.1.24",
+    "ignore": "^2.2.0",
+    "loggie": "^0.1.8",
+    "neuron-builder": "^1.0.0",
+    "neuropil": "^4.0.0",
+    "open": "0.0.4",
+    "read-cortex-json": "^0.1.0",
+    "request": "^2.34.0",
+    "semver": "^2.2.1",
+    "semver-stable": "^1.1.0",
+    "spawns": "^0.2.0",
+    "stares": "^1.5.0",
+    "tar": "^0.1.18",
+    "shrinked": "^0.1.2",
+    "cortex-shrinkwrap": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=0.11.0"
+  },
+  "bin": {
+    "cortex": "bin/cortex-cli.js"
+  },
+  "devDependencies": {
+    "mocha": "^1.16.2",
+    "chai": "^1.8.1",
+    "fs-sync": "^0.2.4"
+  },
+  "scripts": {
+    "test": "mocha test/.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cortexjs/cortex.git"
+  },
+  "license": "MIT"
+}
